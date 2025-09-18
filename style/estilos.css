@@ -1,0 +1,147 @@
+/*TIPOGRAFIA*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    /*PALETA DE COLORES*/
+    --rosa-energy: #ff4081;
+    --morado-uva: #62329f;
+    --turquesa-fosforecente: #02bcd5;
+    --crema-vainilla: #fbf4e4;
+    --crema-frutilla: #ffcedf;
+    --negro: #261a0a;
+
+    /*ESPACIADORES */
+    --padding-1:14px;
+    --padding-2:42px; /*3 x padding-1*/ 
+    --gap-1:10px;
+
+    /*ESCALA TIPOGRAFICA*/
+    --h1:40px;
+    --h2:33px;
+    --h3:28px;
+    --p:16px;
+    --sm:12px;
+    --xsm:9px;
+
+    --san-serif: "Inter", san-erif;
+          
+}
+
+/* RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/*CABECERA*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--rosa-energy);
+    color: var(--crema-vainilla);
+    padding: var(--padding-1);
+}
+
+header h1 a{
+    color: var(--crema-vainilla);
+    text-decoration: none;
+
+}
+
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: var(--gap-1);
+       
+}
+
+header nav ul li a{
+    color: var(--crema-vainilla); 
+    text-decoration: none;
+    display: block;
+    padding: var(--padding-1);
+    border-radius: 3px;
+}
+
+header nav ul li a:hover{
+    background-color: var(--crema-vainilla);
+    color: var(--rosa-energy);
+}
+
+/*BODY*/
+
+body{
+    background-color: var(--crema-vainilla);
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-family: var(--san-serif);
+    font-size: var(--h1);
+    font-weight: 700;
+}
+h2{
+    font-family: var(--san-serif);
+    font-size: var(--h2);
+    font-weight: 700;
+}
+h3{
+    font-family: var(--san-serif);
+    font-size: var(--h3);
+    font-weight: 500;
+}
+p{
+    font-family: var(--san-serif);
+    font-size: var(--p);
+    font-weight: 400;
+}
+
+.sm{
+    font-family: var(--san-serif);
+    font-size: var(--sm);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.xsm{
+    font-family: var(--san-serif);
+    font-size: var(--sm);
+    font-weight: 400;
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: 700;
+}
+
+
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--crema-frutilla);
+}
+
+
+.hero{
+    background-color: var(--rosa-energy);
+}
+
+
+
+
+.sobre_mi{
+
+}
+
+.sobre_mi h1{
+    text-align: center;
+}
+
+.sobre_mi p{
+    text-align: center;
+}
