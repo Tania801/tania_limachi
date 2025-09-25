@@ -11,12 +11,12 @@
 <body>
     <div class="contenedor">
         <header>
-            <h1><a href="index.html">loguito</a></h1>
+            <div class="logo"><a href="index.html">mi logo</a></div>
             <nav>
                 <ul>
                     <li><a href="pages/sobre_mi.html">Quién soy</a></li>
                     <li><a href="pages/hobbies.html"> Mis chispas</a></li>
-                    <li><a href="pages/portafolio.html">Creaciones</a></li>
+                    <li><a href="#creaciones">Creaciones</a></li>
                     <li><a href="pages/blog.html">Fan mode</a></li>
                     <li><a href="pages/contactos.html">Hablemos</a></li>
                 </ul>
@@ -24,37 +24,35 @@
         </header>
         <main>
             <div class="hero">
-                <div class="p1">
-                    <h1>Tania</h1>
-                    <p>Un poco de textito</p>
-                    <a href="" class="btn-hero">Explorar</a>
+                <div class="texto-hero">
+                    <h1>Hola </h1>
+                    <h2>Soy Tania</h2>
+                    
+                    <p>Diseñadora digital</p>
+                    <a href="#about" class="btn">Explorar</a>
                 </div>
                 <!--<img src="image/fotito.jpeg" alt="imagen de mi imagen hero, si hay"> -->
                 
 
-                <div class="figura cuadrado"></div>
+                <!--<div class="figura cuadrado"></div>
                 <div class="figura circulo"></div>
                 <div class="figura rectangulo"></div>
                 <div class="figura triangulo"></div>
-                <div class="figura rombo"></div>
+                <div class="figura rombo"></div>-->
 
             </div>
             
             <!-- seccion de sobre mi -->
-            <div class="sobre_mi">
-                <div class="image">
-                    <img src="image/img.jpg" alt="">
-                </div>
-                <div class="texto">
+            <div id="about" class="sobre_mi interno-bloques">
+                <div>
                     <h1>Sobre mi</h1>
-                    <p>¡Hola! Soy Tania Limachi y este es mi espacio creativo. 
-                    Aquí encontrarás un recorrido por mis pasiones, mis proyectos y todo aquello que me inspira. 
-                    Desde mis hobbies hasta mis trabajos académicos y personales, 
-                    este sitio es una ventana a lo que me motiva y me mueve.
+                    <p>Soy una apasionada del diseño, y mi objetivo es poner a prueba mis habilidades, 
+                        crecer y aprender a superar nuevas metas Busco desarrollarme en todos los campos de diseño y 
+                        trabajar en un entorno gráfico y creativo donde desenvolverme y alcanzar 
+                        nuevas metas.
                     </p>
-                    <a class="btn-hero" href="pages/sobre_mi.html">ver mas</a>
+                    <a class="btn" href="pages/sobre_mi.html">Explorar</a>
                 </div>
-                
             </div>
 
 
@@ -63,55 +61,60 @@
                 <h1>Mis chispas</h1>
 
                 <div>
-                    <div class="circulo-h"></div>
-                    <div class="circulo-h"></div>
-                    <div class="circulo-h"></div>
+                    <div class="circulo-h"><img class="icon" src="image/film.png" alt=""></div>
+                    <div class="circulo-h"><img class="icon" src="image/sketchbook.png" alt=""></div>
+                    <div class="circulo-h"><img class="icon" src="image/dance.png" alt=""></div>
                 </div>
                <!--
                 <p>
                     Estas con actividades que me encantan realizar.
                 </p>--> 
 
-                <a class="btn-hero" href="pages/sobre_mi.html">ver mas</a>
+                <a class="btn" href="pages/sobre_mi.html">Explorar</a>
             </div>
 
 
             <!-- seccion de portafolio -->
-            <div class="portafolio">
+            <div id="creaciones" class="portafolio">
                 <h1>Creaciones</h1>
 
-                <div class="card-contenedor">
+                <div class="card-contenedor fila">
                     <div class="card">
-                        <h2>Proyectos Academico</h2>
-                        <div>para imagen</div>
-                        <p>Aquí muestro los proyectos que desarrollé en la universidad, donde aprendí a transformar ideas en propuestas concretas y a trabajar con metodologías creativas.
+                        <h2>Proyectos Académicos</h2>
+                        <div><img src="image/project.png" alt=""></div>
+                        <p>Aquí muestro los proyectos que estoy desarrollando en la universidad.
                         </p>
-                        <a href="pages/portafolio.html">Explora</a>
+                        <a class="btn" href="pages/portafolio.html">Explorar</a>
                     </div>
 
                     <div class="card">
                         <h2>Proyectos Personales</h2>
-                        <div>para imagen</div>
-                        <p>En esta sección encontrarás proyectos que realicé de manera independiente y como freelancer. Son trabajos que me han permitido experimentar con estilos distintos y colaborar con diferentes personas
-                        </p>
-                        <a href="pages/portafolio2.html">Explora</a>
+                        <div><img src="image/sketchbook1.png" alt=""></div>
+                        <p>En esta sección encontrarás proyectos que realicé de manera independiente y como freelancer.                         </p>
+                        <a class="btn" href="pages/portafolio2.html">Explorar</a>
                     </div>
 
                     <div class="card">
                         <h2>Procesos Creativos</h2>
-                        <div>para imagen</div>
-                        <p>Aquí comparto el detrás de cámaras de mis creaciones: desde los primeros bocetos, referencias visuales y moodboards, hasta el resultado final. Me interesa mostrar cómo las ideas van tomando forma a través de la experimentación.
+                        <div><img src="image/creative-.png" alt=""></div>
+                        <p>Aquí comparto el detrás de cámaras de mis creaciones, como ser moodboars y bocetos. 
                         </p>
-                        <a href="pages/portafolio3.html">Explora</a>
+                        <a class="btn" href="pages/portafolio3.html">Explorar</a>
                     </div>
                 </div>
             </div>
 
 
             <!-- blog-->
-            <div class="blog">
-                <h1>Fan mode</h1>
-                <p>Este espacio lo dedico a artistas, diseñadores y creadores que me inspiran.</p>
+            <div class="blog interno-bloques">
+                <div>
+                    <h1>Fan mode</h1>
+                    <p>Este espacio lo dedico a artistas, diseñadores y creadores que me inspiran.</p>
+                    <a class="btn" href="pages/blog.html">Explorar</a>
+                </div>
+
+                
+                
             </div>
 
 
@@ -122,20 +125,26 @@
         </main>
         <footer>
             
-            <div class="contactos">
-                <h1>Hablame</h1>
+            <div class="contactos interno-bloques fila">
 
-                <p>¡Me encantaría conectar contigo! Puedes escribirme para colaborar, compartir ideas o simplemente saludar.</p>
+                <div>
+                    <h1>Hablame</h1>
+
+                <p>¡Me encantaría conectar contigo! Puedes escribirme para colaborar, compartir ideas o simplemente saludar.</p>
+                <a class="btn" href="pages/contactos.html">Hablemos</a>
+                
+                </div>
+                
 
                 <nav class="redes">
                 <ul>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Tiktok</a></li>
+                    <li><a href="www.facebook.com"><img class="social" src="image/facebook_4138166.png" alt=""></a></li>
+                    <li><a href="www.instagram.com"><img class="social" src="image/instagram_4138164.png" alt=""></a></li>
+                    <li><a href="www.tiktok.com"><img class="social" src="image/tik-tok_4138198.png" alt=""></a></li>
                 </ul>
             </nav>
             </div>
-            <p>© 2025</p>
+            
         </footer>
     </div>
 </body>
