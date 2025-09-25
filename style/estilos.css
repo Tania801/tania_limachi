@@ -530,9 +530,7 @@ footer{
     height: 100vh;
 }
 
-.about p{
-    color: var(--crema-vainilla);
-}
+
 
 .galeria {
     display: grid;
